@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<project name="linux/bsp/docs" path="docs" revision="4e377b938f15e8892a29bbe2cb09f04329366ec8" upstream="release" dest-branch="release" clone-depth="1"/>
+<project name="linux/bsp/docs" path="docs/cn" revision="9b2f5b39bf5ffb44b224d78c6292db8f97e52061" upstream="cn" dest-branch="cn" clone-depth="1">
+    <linkfile dest="docs/cn/RK3588/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
+</project>
+<project name="linux/bsp/docs" path="docs/en" revision="3d1d62c2334d247d181b79086a974dbf2e9d8031" upstream="en" dest-branch="en" clone-depth="1"/>
+<project name="linux/bsp/internal_doc" path="docs/cn/RK3588" revision="rk3588-cn"/>
+<project name="linux/bsp/internal_doc" path="docs/en/RK3588" revision="rk3588-en"/>
+
+</manifest>

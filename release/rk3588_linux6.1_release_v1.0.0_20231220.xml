@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="rk" fetch="../../" />
+  <default remote="rk" sync-j="4"/>
+
+  <include name="include/rk3588_doc-r1.xml"/>
+  <include name="common/linux6.1/linux6.1-rkr1.xml"/>
+  <include name="common/yocto/yocto-kirkstone-release-r1.xml"/>
+  <include name="common/debian/debian12-rkr1.xml"/>
+
+  <project name="linux/device/rockchip" path="device/rockchip" revision="refs/tags/rk3588-linux-6.1-stan-rkr1">
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
+  <project name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="refs/tags/linux-6.1-stan-rkr1" clone-depth="1"/>
+  <project name="rk/rknn-toolkit2" path="external/rknn-toolkit2" revision="refs/tags/linux-6.1-stan-rkr1" clone-depth="1"/>
+  <project name="rk/rknpu2" path="external/rknpu2" revision="refs/tags/linux-6.1-stan-rkr1" clone-depth="1"/>
+  <project name="linux/external/dpdk" path="external/dpdk" revision="refs/tags/linux-6.1-stan-rkr1"/>
+</manifest>
