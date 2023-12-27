@@ -3,6 +3,7 @@
   <remote name="rk" fetch="../../" />
   <default remote="rk" sync-j="4"/>
 
+  <!-- Based file name： RK3588_LINUX6.1_SDK_RELEASE_V1.0.0_20231220 -->
   <include name="include/rk3588_doc-r1.xml"/>
   <include name="common/linux6.1/linux6.1-rkr1.xml"/>
   <include name="common/yocto/yocto-kirkstone-release-r1.xml"/>
