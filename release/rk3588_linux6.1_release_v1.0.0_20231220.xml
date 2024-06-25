@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="rk" fetch="../../" />
+  <remote name="rk" fetch="./" />
   <default remote="rk" sync-j="4"/>
 
   <!-- Based file name： RK3588_LINUX6.1_SDK_RELEASE_V1.0.0_20231220 -->
