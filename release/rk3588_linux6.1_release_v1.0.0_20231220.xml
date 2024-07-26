@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="rk" fetch="./" />
+  <remote name="github" fetch="https://github.com/" />
   <default remote="rk" sync-j="4"/>
 
   <!-- Based file name： RK3588_LINUX6.1_SDK_RELEASE_V1.0.0_20231220 -->
@@ -14,7 +15,8 @@
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
-  <project name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="refs/tags/linux-6.1-stan-rkr1" clone-depth="1"/>
+  <project remote="github" name="JeffyCN/mirrors" path="external/camera_engine_rkaiq" revision="refs/tags/rkaiq-2024_04_08" clone-depth="1"/>
+  <project remote="github" name="TinkerBoard-Linux/rockchip-linux-tools" path="tools" revision="linux5.10-rk3399-debian11" clone-depth="1"/>
   <project name="rk/rknn-toolkit2" path="external/rknn-toolkit2" revision="refs/tags/linux-6.1-stan-rkr1" clone-depth="1"/>
   <project name="rk/rknpu2" path="external/rknpu2" revision="refs/tags/linux-6.1-stan-rkr1" clone-depth="1"/>
   <project name="linux/external/dpdk" path="external/dpdk" revision="refs/tags/linux-6.1-stan-rkr1"/>

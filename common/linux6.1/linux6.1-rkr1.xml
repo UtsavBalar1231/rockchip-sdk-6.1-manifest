@@ -25,7 +25,6 @@
   <project name="linux/security/bin" path="external/security/bin" revision="refs/tags/linux-6.1-stan-rkr1"/>
   <project name="linux/external/uac_app" path="external/uac_app" revision="refs/tags/linux-6.1-stan-rkr1"/>
   <project name="linux/external/uvc_app" path="external/uvc_app" revision="refs/tags/linux-6.1-stan-rkr1"/>
-  <project name="linux/tools" path="tools" revision="refs/tags/linux-6.1-stan-rkr1" clone-depth="1"/>
   <project name="rk/librkcrypto" path="external/security/librkcrypto" revision="refs/tags/linux-6.1-stan-rkr1"/>
   <project name="rk/kernel-stable" path="kernel-6.1" revision="refs/tags/linux-6.1-stan-rkr1">
     <linkfile src="." dest="kernel"/>
